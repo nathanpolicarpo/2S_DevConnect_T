@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nathan">
+    <meta name="description" content="Site da Empresa DevConnect">
+    <title>Tela - de - cadastro</title>
+    <link rel="shortcut icon" href="../images/logo-devconnect-sm.svg" type="image/x-icon">
+
+    <!-- Seus estilos -->
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/cadastro.css">
+</head>
+
+<body>
+    <main>
+        <div class="mainDiv">
+            <form id="formulario-cadastro" class="formulario">
+                <img src="../images/logo-devconnect-lg.svg" alt="Logo DevConnect">
+                <p class="subtexto">Cadastre-se para comunidade exclusiva de desenvolvedores(as).</p>
+
+                <div class="formularioDiv">
+                    <input type="text" id="nome" name="nome" placeholder="Nome e sobrenome" required />
+                    <input type="text" id="usuario" name="usuario" placeholder="Nome de usuário" required />
+                    <input type="email" id="email" name="email" placeholder="E-mail" required />
+                    <input type="password" id="senha" name="senha" placeholder="Senha" required />
+                </div>
+
+                <div class="upload-imagem">
+                    <label for="upload" class="upload-label">
+                        Faça upload da sua imagem aqui...
+                    </label>
+                    <input type="file" id="upload" class="upload-input" />
+                </div>
+
+                <button class="formulario-botao-azul" type="submit">Cadastrar-se</button>
+
+                <p class="texto-cadastrar">
+                    Ao se cadastrar, você concorda com nossos<br>
+                    Termos, Política de Dados e Política de Cookies.
+                </p>
+
+
+
+            </form>
+
+            <section id="secao-login" class="secao-cadastro">
+                <p>Tem uma conta? <a href="../pages/index.html">Conecte-se</a></p>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>
