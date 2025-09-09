@@ -2,8 +2,9 @@ main {
     width: 100%;
     min-height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px 0; 
    
 }
 
@@ -49,7 +50,7 @@ main>div {
 
 }
 
-.formulario-botap-azul {
+.formulario-botao-azul {
     width: 100%;
 }
 
